@@ -1,57 +1,33 @@
-# UrbanNest-Solutions
-Technology for smart cities
-## Contexto
-UrbanNest Solutions busca desarrollar una plataforma web interactiva que conecte a los residentes de una ciudad con micro-eventos y rutas de interés cercanas. La idea es combinar datos de geolocalización, inteligencia comunitaria y visualización en tiempo real para mejorar la experiencia urbana.
+## BreatheSafe – Monitoreo de Calidad del Aire en Bogotá
 
-El sistema permitirá a los usuarios:
+AireLibre es una plataforma web interactiva que muestra datos en tiempo real sobre la calidad del aire y el clima en Bogotá.  
+Su objetivo es ayudar a las personas a tomar decisiones informadas sobre actividades al aire libre, especialmente en días con alta contaminación.
 
-* Explorar un mapa interactivo con eventos comunitarios (mercados locales, conciertos callejeros, ferias, clases gratuitas en parques, etc.).
+## Objetivos
+- Centralizar datos en tiempo real sobre la calidad del aire y el clima en Bogotá.
+- Visualizar información de manera clara mediante un mapa interactivo y gráficos.
+- Alertar a los usuarios cuando la calidad del aire sea perjudicial para la salud.
+- Educar a la población con recomendaciones personalizadas según el estado del aire.
 
-* Crear y compartir micro-rutas (por ejemplo, "Ruta de murales de arte urbano" o "Caminata gastronómica").
+## Público objetivo
+- Personas con enfermedades respiratorias.
+- Deportistas y personas activas.
+- Familias con niños pequeños o adultos mayores.
+- Instituciones educativas y empresas preocupadas por la salud de sus miembros.
 
-* Ver en tiempo real la actividad y popularidad de cada evento o ruta, usando datos de interacción de otros usuarios.
 
-* Guardar y seguir rutas/eventos favoritos.
+## 🚀 Funcionalidades
+- Mapa interactivo con estaciones de monitoreo.
+- Datos en tiempo real de PM2.5, PM10, ICA, temperatura y humedad.
+- Alertas cuando la calidad del aire sea perjudicial para la salud.
+- Gráficos históricos y tendencias por localidad.
+- Recomendaciones personalizadas según el estado del aire.
 
-* Recibir recomendaciones personalizadas basadas en intereses y ubicación.
+## 🛠️ Tecnologías
+- **Frontend:** React + TailwindCSS.
+- **Backend:** Node.js + Express.
+- **Base de datos:** PostgreSQL / Supabase.
+- **Integraciones:** API Red de Monitoreo de Calidad del Aire de Bogotá, OpenWeatherMap.
 
-## Requerimientos Técnicos
-### Frontend (React o Vue)
-* Mapa interactivo (puede usar Leaflet o Mapbox).
-
-* Sistema de autenticación y perfil de usuario.
-
-* Feed dinámico de eventos y rutas.
-
-* Panel de creación de rutas con geolocalización de puntos.
-
-* Integración de notificaciones en tiempo real (p.ej., WebSockets).
-
-### Backend (Node.js con Express)
-* API REST para gestión de usuarios, eventos y rutas.
-
-* Integración con servicios de mapas y geocodificación (Mapbox, OpenStreetMap).
-
-* WebSockets para actualizaciones en tiempo real (popularidad de un evento, usuarios conectados).
-
-* Recomendador básico de rutas/eventos (puede ser por intereses o ubicación).
-
-### Base de Datos (PostgreSQL con Supabase)
-Tablas principales:
-
-* users (usuarios registrados).
-
-* events (eventos con ubicación y detalles).
-
-* routes (rutas creadas por usuarios con puntos geolocalizados).
-
-* favorites (eventos o rutas guardados).
-
-* activity_log (registro de visualizaciones, interacciones y popularidad).
-
-### Extras Innovadores
-* Sistema de gamificación: los usuarios ganan puntos por asistir a eventos o crear rutas populares.
-
-* Visualización de "zonas activas" en el mapa con colores según la densidad de eventos.
-
-* Ranking semanal de rutas más visitadas.
+## 📌 Estado del proyecto
+En desarrollo. Próxima fase: Diseño de interfaz en Figma y configuración inicial del backend.
